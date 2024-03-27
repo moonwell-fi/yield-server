@@ -6,6 +6,7 @@ const axios = require('axios')
 
 const MRD_CONTRACT = '0xe9005b078701e2A0948D2EaC43010D35870Ad9d2'
 const MOONBEAM_VIEWS_CONTRACT = '0xe76C8B8706faC85a8Fbdcac3C42e3E7823c73994'
+
 const SECONDS_PER_DAY = 86400
 const DAYS_PER_YEAR = 365
 const NOW = new Date().getTime() / 1000
